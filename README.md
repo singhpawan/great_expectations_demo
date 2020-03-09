@@ -9,7 +9,7 @@ some basic setup steps.
 
 ### Install and configure tools
 * airflow - run `airflow initdb`, set up `$AIRFLOW_HOME` and point the dags_folder in airflow.cfg to the project path
-* dbt - set up your database connection in the dbt_profile.yml (see the example_dbt_profile.yml in this project)
+* dbt - set up your database connection in the dbt_profile.yml
 * great_expectations - no further setup needed
 
 ### Environment variables
