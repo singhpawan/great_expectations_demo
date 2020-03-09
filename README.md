@@ -15,8 +15,8 @@ some basic setup steps.
 ### Environment variables
 
 The pipeline's configuration variables are passed using environment variables. Set the following variables:
-* `export GE_TUTORIAL_DB_URL=postgresql://your_user:your_password@your_dh_host:5432/your_db_name`
-* `export GE_TUTORIAL_PROJECT_PATH=your_project_path`
+* `export GE_TUTORIAL_DB_URL=postgresql://test:test@localhost:5432/dvdrental`
+* `export GE_TUTORIAL_PROJECT_PATH=/Users/pawan/great_expectations_demo`
 
 
 ## Pipeline overview
