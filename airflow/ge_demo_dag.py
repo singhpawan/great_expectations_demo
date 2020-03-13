@@ -219,4 +219,6 @@ task_publish = PythonOperator(
 
 
 # DAG dependencies
-task_validate_source_data >> task_load_files_into_db >> task_validate_source_data_load >> task_dbt >> task_validate_analytical_output >> task_publish
+# task_validate_source_data >> task_load_files_into_db >> task_validate_source_data_load >> task_dbt >> task_validate_analytical_output >> task_publish
+# Running without ge_validations
+task_load_files_into_db >> task_dbt  >> task_publish
